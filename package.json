@@ -1,0 +1,13 @@
+{
+  "name": "docker-commitlint",
+  "version": "0.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@commitlint/cli": "5.2.8",
+    "@commitlint/config-angular": "5.1.1",
+    "@commitlint/config-angular-type-enum": "5.1.1",
+    "@commitlint/config-conventional": "5.2.3",
+    "@commitlint/config-lerna-scopes": "5.2.7",
+    "@commitlint/config-patternplate": "5.2.7"
+  }
+}

@@ -1,0 +1,19 @@
+sudo: required
+
+services:
+  - docker
+
+env:
+  global:
+    - secure: "QDhA0YM7/tMSmCwi0iU8Lrb2rEBAIIvf3IOmD8qdrWPNZwJ5qnach8a5/LFufZEpILTJruPi66amKAMUICgvpdMWcqJdnAHoc7Xskn8jPGxsyccU0bBdW7F6i26LbKvOwHUITYOf0XffOfQZTd5L9T/fPwwKCk8VeBU0/Kc2XmWS8sQJoX9VKn6Mqcske343wycdrW1RGCFPpOwmoIxnKDQJlc0thRYE5XW8Z4vyvbt0NU2KHgO+QnRBDJLpuqsErlkFtnOvDl2y9WdsMtdccRShLTmm81JJAHUXfxvNn5pn6mkckZnDGaa+HRBy67WVW4Jes2RN4tmpWLdu6D2g5sIFe3drE/BS0oT0yHZ7QGQ6WKjlZ+Q3pKcbvvzqgrFclkNlPlVivrv/p2Ac8GtskaFlZTrcT+ZXQvk9L4zaxS2oQ5AOcRr0wXJ9jcg0k0BQBQQ7cwKyrRDvysxo86zwb9gMfz7fojh6I3WZYPaqupjf6KPKZvl3L5nfUwCIYN++0nUmPBqaFie4QsvwTFqKTVgKYFNUwA+NMQ4S6EsId+DJqPe32Xv+oL5ief/8sVSowwoOIjgyNqENdxWp4MIoST/s6sXXSRThTD/Rz2uRsqQzoVCW1wKp/XNMHxTuAHuelZU041+d0tddru9r9DQBx6z/7gzfh/G7IlPVzfojnd4="
+    - secure: "cgMjiI5VDSglFgIfuV7evC4YkFGUUtc0q2BYRX6O2M3fUl3lUQ+FoNo2QmPJRGZE2QCtUwzR7ECwa1ME7lbQoZK171QEKq3/ie35eqldlW4y9JZfAJDjeUeUDB+ov1uEwY4AoGsvFVpUciV7fkxStYrq2VbsP7uf3mCW+xwqn6edYbeMQ7VEMb8xG0m4qVlfpUAIt8sJnuzmf6eRxmew+DyKW/xQ23/JWJxsPYDoMWSxao0rMV2PX92D72c4Pw+6jeF7VKPNVA37OGl2woJz6YHboJadRQLPeC0f3uNWCcBHRiXFUdTbbY4Jeak5ws6/i3+0DEv/qnHbA/EIUD7IMpUUCsQ4u4MFSMac1YD+N/mVkV7uGSPKM/k0gt554l8nuJkoVV8MUHh3Ex7SXbGHWTMfKhq2DfBVUaSSbKGdi/0ystZ1XWMzDHzwE9kXzWADKNYHkJPID4l/hMYt5e/O9Serdalozse9djWqAjyLSRdFVGk+089zAD1s5IW1fqABxOjtYUD3kyLVSLTxIHqItudFYbN9VMRBZFZv+iwi1kpSwwdQBXm2pGCt8Lo8XUZ69HaWATfs+qIECLWKGK6Ph/MV9f5YCdXZPt1zsIbYD3I7olPVJJsy3pQDGkhH+4FIR9vMYTf8o2XN3+KKbXKo8OOhOTj27CrZgBOhYUYzZbw="
+
+before_script: env | grep TRAVIS_
+
+script: 'make test'
+
+after_success:
+  - if [ "$TRAVIS_BRANCH" == "master" ] && [ "$TRAVIS_EVENT_TYPE" != "pull_request" ]; then
+      docker login -u=$DOCKER_USERNAME -p=$DOCKER_PASSWORD;
+      make push;
+    fi
