@@ -35,9 +35,9 @@
     import-from "2.1.0"
     lerna "2.5.1"
 
-"@commitlint/config-patternplate@5.2.7":
-  version "5.2.7"
-  resolved "https://registry.yarnpkg.com/@commitlint/config-patternplate/-/config-patternplate-5.2.7.tgz#42cfbb396248e505835abdc30ece1446ee4d90b7"
+"@commitlint/config-patternplate@6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-patternplate/-/config-patternplate-6.0.0.tgz#a07414b6391867026e05aee06fec7c99c84f9235"
   dependencies:
     "@commitlint/config-angular" "^5.1.1"
     globby "4.1.0"
@@ -1482,8 +1482,8 @@ q@^1.4.1:
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
 
 rc@^1.0.1, rc@^1.1.6:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/rc/-/rc-1.2.2.tgz#d8ce9cb57e8d64d9c7badd9876c7c34cbe3c7077"
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/rc/-/rc-1.2.3.tgz#51575a900f8dd68381c710b4712c2154c3e2035b"
   dependencies:
     deep-extend "~0.4.0"
     ini "~1.3.0"
