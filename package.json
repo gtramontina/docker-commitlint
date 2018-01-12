@@ -6,7 +6,7 @@
     "@commitlint/cli": "6.0.2",
     "@commitlint/config-angular": "6.0.2",
     "@commitlint/config-angular-type-enum": "6.0.2",
-    "@commitlint/config-conventional": "5.2.3",
+    "@commitlint/config-conventional": "6.0.2",
     "@commitlint/config-lerna-scopes": "6.0.2",
     "@commitlint/config-patternplate": "6.0.2"
   }
