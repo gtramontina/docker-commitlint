@@ -18,7 +18,7 @@
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/@commitlint/config-angular-type-enum/-/config-angular-type-enum-6.1.0.tgz#efc0c16c2e34fff62194915bb446a05d104b15c0"
 
-"@commitlint/config-angular@6.1.0", "@commitlint/config-angular@^6.0.2":
+"@commitlint/config-angular@6.1.0", "@commitlint/config-angular@^6.1.0":
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/@commitlint/config-angular/-/config-angular-6.1.0.tgz#842ea695ec7a31bb2f751f585d703f2d5e127b3b"
   dependencies:
@@ -35,11 +35,11 @@
     import-from "2.1.0"
     lerna "2.7.1"
 
-"@commitlint/config-patternplate@6.0.2":
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/@commitlint/config-patternplate/-/config-patternplate-6.0.2.tgz#471b92c6d9808299ae83fb44cbc37221ca4d41ae"
+"@commitlint/config-patternplate@6.1.0":
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-patternplate/-/config-patternplate-6.1.0.tgz#afd189b9be9866506360fe3a28fb74db530222bd"
   dependencies:
-    "@commitlint/config-angular" "^6.0.2"
+    "@commitlint/config-angular" "^6.1.0"
     globby "4.1.0"
     lodash.merge "4.6.0"
 
