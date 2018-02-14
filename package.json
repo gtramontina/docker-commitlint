@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "dependencies": {
-    "@commitlint/cli": "6.0.2",
+    "@commitlint/cli": "6.1.0",
     "@commitlint/config-angular": "6.1.0",
     "@commitlint/config-angular-type-enum": "6.0.2",
     "@commitlint/config-conventional": "6.1.0",

@@ -2,11 +2,11 @@
 # yarn lockfile v1
 
 
-"@commitlint/cli@6.0.2":
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-6.0.2.tgz#378d37e92c4d97346e84c3a3d6677a62e9471d66"
+"@commitlint/cli@6.1.0":
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-6.1.0.tgz#0a545088b4e0268cca1dca7e8ccd95bd55847b88"
   dependencies:
-    "@commitlint/core" "^6.0.2"
+    "@commitlint/core" "^6.1.0"
     babel-polyfill "6.26.0"
     chalk "2.3.0"
     get-stdin "5.0.1"
@@ -47,7 +47,7 @@
     globby "4.1.0"
     lodash.merge "4.6.0"
 
-"@commitlint/core@^6.0.2":
+"@commitlint/core@^6.1.0":
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/@commitlint/core/-/core-6.1.0.tgz#41b2482044039435cb9673995598717038f2f6d0"
   dependencies:
