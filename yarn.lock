@@ -21,7 +21,17 @@
   version "6.1.2"
   resolved "https://registry.yarnpkg.com/@commitlint/config-angular-type-enum/-/config-angular-type-enum-6.1.2.tgz#cf42bdab0c046c80cd3390cce633de91e77d301c"
 
-"@commitlint/config-angular@6.1.2", "@commitlint/config-angular@^6.1.2":
+"@commitlint/config-angular-type-enum@^6.1.3":
+  version "6.1.3"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-angular-type-enum/-/config-angular-type-enum-6.1.3.tgz#f310dc1c24c8be9ed320c26291a8d18cfa11a45f"
+
+"@commitlint/config-angular@6.1.3":
+  version "6.1.3"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-angular/-/config-angular-6.1.3.tgz#68f46786fd3c3ef7808c4ced42e05721ead8f604"
+  dependencies:
+    "@commitlint/config-angular-type-enum" "^6.1.3"
+
+"@commitlint/config-angular@^6.1.2":
   version "6.1.2"
   resolved "https://registry.yarnpkg.com/@commitlint/config-angular/-/config-angular-6.1.2.tgz#9345e8e37b214900aa8fe0d0abcc91cb8ae02894"
   dependencies:
