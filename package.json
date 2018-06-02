@@ -8,6 +8,6 @@
     "@commitlint/config-angular-type-enum": "7.0.0",
     "@commitlint/config-conventional": "7.0.0",
     "@commitlint/config-lerna-scopes": "7.0.0",
-    "@commitlint/config-patternplate": "7.0.0"
+    "@commitlint/config-patternplate": "7.0.1"
   }
 }
