@@ -21,21 +21,15 @@
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/@commitlint/config-angular-type-enum/-/config-angular-type-enum-7.0.0.tgz#69702ba80a56a3d8bab3cc32898e496045d13323"
 
-"@commitlint/config-angular@7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/config-angular/-/config-angular-7.0.0.tgz#9e31cd57b11d880eb9aa052c95ba5936eff8f644"
-  dependencies:
-    "@commitlint/config-angular-type-enum" "^7.0.0"
-
-"@commitlint/config-angular@^7.0.1":
+"@commitlint/config-angular@7.0.1", "@commitlint/config-angular@^7.0.1":
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/@commitlint/config-angular/-/config-angular-7.0.1.tgz#559db668855076fe7e845a71ed490eacb7314903"
   dependencies:
     "@commitlint/config-angular-type-enum" "^7.0.0"
 
-"@commitlint/config-conventional@7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/config-conventional/-/config-conventional-7.0.0.tgz#217f9f5afc79a640371d6f1767abe14ed9f48fbe"
+"@commitlint/config-conventional@7.0.1":
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-conventional/-/config-conventional-7.0.1.tgz#276977f8ee60d8c56d7fdd43296af76dfee9b5f7"
 
 "@commitlint/config-lerna-scopes@7.0.0":
   version "7.0.0"
