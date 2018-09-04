@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "license": "MIT",
   "dependencies": {
-    "@commitlint/cli": "7.1.1",
-    "@commitlint/config-angular": "7.1.1",
-    "@commitlint/config-angular-type-enum": "7.1.1",
-    "@commitlint/config-conventional": "7.1.1",
-    "@commitlint/config-lerna-scopes": "7.1.1",
-    "@commitlint/config-patternplate": "7.1.1"
+    "@commitlint/cli": "7.1.2",
+    "@commitlint/config-angular": "7.1.2",
+    "@commitlint/config-angular-type-enum": "7.1.2",
+    "@commitlint/config-conventional": "7.1.2",
+    "@commitlint/config-lerna-scopes": "7.1.2",
+    "@commitlint/config-patternplate": "7.1.2"
   }
 }
